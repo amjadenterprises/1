@@ -547,14 +547,15 @@ header{
 
 nav{
     position:absolute;
-    top:90px;
+    top:85px;
     left:0;
+    right:0;
     width:100%;
     background:#ffffff;
     display:none;
-    box-shadow:0 10px 20px rgba(0,0,0,0.1);
+    z-index:999;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
 }
-
 nav ul{
     flex-direction:column;
     text-align:center;
