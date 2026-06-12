@@ -259,3 +259,73 @@ transition:.3s;
 .whatsapp-float:hover{
 transform:scale(1.1);
 }
+/* =========================
+   PRODUCTS SECTION
+========================= */
+
+#products {
+    padding: 80px 8%;
+    background: #f8f9fb;
+}
+
+#products h2 {
+    text-align: center;
+    font-size: 38px;
+    color: #1d3557;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: all 0.35s ease;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.product-card::before{
+    content:"EXPORT QUALITY";
+    display:block;
+    background:#d4af37;
+    color:#fff;
+    font-size:12px;
+    font-weight:600;
+    padding:8px;
+    letter-spacing:1px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    background: #ffffff;
+    padding: 20px;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    color: #1d3557;
+    font-weight: 600;
+    margin: 10px 15px;
+}
+
+.product-card p {
+    color: #666;
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 1.6;
+}
