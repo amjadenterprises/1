@@ -26,7 +26,20 @@ flex-wrap:wrap;
 .logo-section img{
 height:80px;
 }
+.logo-section img{
+    height:70px;
+    width:auto;
+    display:block;
+}
 
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    background:#ffffff;
+    box-shadow:0 2px 15px rgba(0,0,0,0.08);
+}
 nav ul{
 list-style:none;
 display:flex;
