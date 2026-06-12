@@ -1,4 +1,4 @@
-html{
+ html{
 scroll-behavior:smooth;
 }
 *{
@@ -24,9 +24,8 @@ flex-wrap:wrap;
 }
 
 .logo-section img{
-    height:70px;
+    height:90px;
     width:auto;
-    display:block;
 }
 
 header{
