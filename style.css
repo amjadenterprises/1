@@ -37,15 +37,6 @@ header{
     background:#ffffff;
     box-shadow:0 2px 15px rgba(0,0,0,0.08);
 }
-
-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:15px 50px;
-    background:#ffffff;
-    box-shadow:0 2px 15px rgba(0,0,0,0.08);
-}
 nav ul{
 list-style:none;
 display:flex;
