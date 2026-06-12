@@ -603,8 +603,13 @@ nav ul li a:hover{
 }
 
 /* Mobile */
-
 @media(max-width:768px){
+    .logo-section img{
+        height:75px;
+        width:auto;
+    }
+}
+
 
 header{
     flex-direction:column;
