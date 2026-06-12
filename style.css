@@ -23,8 +23,8 @@ align-items:center;
 flex-wrap:wrap;
 }
 
-..logo-section img{
-    height:85px;
+.logo-section img{
+    height:120px;
     width:auto;
 }
 
@@ -410,10 +410,6 @@ header{
     align-items:center;
 }
 
-.logo-section img{
-    height:70px;
-    width:auto;
-}
 
 nav{
     width:100%;
@@ -489,10 +485,7 @@ header{
     box-shadow:0 2px 15px rgba(0,0,0,0.08);
 }
 
-.logo-section img{
-    height:80px;
-    width:auto;
-}
+
 
 /* DESKTOP MENU */
 
@@ -536,9 +529,7 @@ header{
     padding:10px 15px;
 }
 
-.logo-section img{
-    height:65px;
-}
+
 
 .hamburger{
     display:block;
@@ -574,4 +565,72 @@ nav ul li a{
     display:block;
 }
 
+}
+/* PREMIUM EXPORT HEADER */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#ffffff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    box-shadow:0 3px 15px rgba(0,0,0,0.08);
+    border-bottom:3px solid #d4af37;
+}
+
+
+
+/* Desktop Menu */
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#0b1f3a;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#d4af37;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    padding:10px;
+}
+
+
+nav{
+    width:100%;
+    overflow-x:auto;
+}
+
+nav ul{
+    display:flex;
+    flex-wrap:nowrap;
+    white-space:nowrap;
+    overflow-x:auto;
+    gap:15px;
+    padding:10px;
+}
+
+nav ul li{
+    flex-shrink:0;
+}
+
+nav ul li a{
+    font-size:14px;
+}
 }
