@@ -23,10 +23,9 @@ align-items:center;
 flex-wrap:wrap;
 }
 
-.logo-section img{
-    height:90px;
+..logo-section img{
+    height:85px;
     width:auto;
-    display:block;
 }
 
 header{
